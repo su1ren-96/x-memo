@@ -53,18 +53,3 @@ body.weibo-mode .wb-tabs button{padding:8px 2px 5px}
 .wb-video-label{display:flex;align-items:flex-start;gap:6px;margin:12px 0 13px;font-size:17px;line-height:1.5}
 .wb-video-label svg{width:20px;height:20px;margin-top:3px}
 @media(max-width:370px){body.weibo-mode .wb-head.wb-head-centered{height:250px;min-height:250px}}
-
-/* Reference refinements: Weibo text-flow camera label, compact actions and VIP crown. */
-.wb-video-inline{color:#4a779f;display:inline;overflow-wrap:anywhere}
-.wb-video-inline svg{display:inline-block;width:1.05em;height:1.05em;vertical-align:-.16em;margin-right:.12em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.wb-video{display:block;margin-top:12px}
-.wb-actions{min-height:39px;margin-top:10px}
-.wb-actions button{font-size:12px;gap:5px;padding:8px 2px;min-height:39px}
-.wb-action-icon{width:17px;height:17px}
-.wb-centered-name{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px}
-.wb-gender{display:inline-grid;place-items:center;width:1.12em;height:1.12em;line-height:1;border-radius:50%;font-size:.84em;color:white;text-shadow:none;vertical-align:middle;margin-left:4px;font-family:Arial,sans-serif;font-weight:bold}
-.wb-male{background:#56b5ee}.wb-female{background:#ef7aaa}
-.wb-crown{position:relative;display:inline-flex;vertical-align:middle;width:1.65em;height:1.43em;align-items:center;justify-content:center;margin-left:3px;filter:drop-shadow(0 1px 1px #0003);text-shadow:none}
-.wb-crown svg{width:100%;height:100%;overflow:visible}
-.wb-crown-number{position:absolute;right:-.04em;bottom:-.07em;color:white;font-size:.65em;font-weight:900;line-height:1;-webkit-text-stroke:.8px #f18400;text-shadow:1px 0 #f18400,-1px 0 #f18400,0 1px #f18400,0 -1px #f18400}
-.wb-author .wb-crown{font-size:19px}.wb-author .wb-gender{font-size:13px}
