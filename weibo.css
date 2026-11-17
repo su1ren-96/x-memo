@@ -63,14 +63,14 @@ body.weibo-mode .wb-tabs button{padding:8px 2px 5px}
 
 .wb-author .wb-crown{width:23px;height:22px;margin-left:2px}.wb-author .wb-crown b{font-size:10px}
 
-/* Reference image badges: compact, aligned, and sourced from provided crown art */
-.wb-centered-name{display:flex;align-items:center;justify-content:center;gap:5px;flex-wrap:wrap}
-.wb-crown,.wb-author .wb-crown{display:inline-block;width:27px;height:21px;object-fit:contain;vertical-align:middle;flex:none;margin:0 0 0 2px}
-.wb-author .wb-crown{width:22px;height:18px}
-.wb-gender{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;flex:none;border-radius:50%;overflow:hidden;vertical-align:middle;text-shadow:none}
-.wb-gender svg{display:block;width:20px;height:20px}
-.wb-gender.female{background:#f379aa}.wb-gender.male{background:#68b6eb}
-.wb-author strong + .wb-crown{margin-left:3px}
-.wb-actions{min-height:39px}
-.wb-actions button{font-size:12px;padding:8px 3px;gap:5px}
-.wb-action-icon{width:18px;height:18px}
+/* 2026-11-17: Weibo reference refinement, overrides older declarations. */
+body.weibo-mode .wb-actions{min-height:36px;margin-top:10px}
+body.weibo-mode .wb-actions button{font-size:12px;gap:4px;padding:8px 2px;line-height:1.15}
+body.weibo-mode .wb-actions .wb-action-icon{width:16px;height:16px;stroke-width:1.65}
+body.weibo-mode .wb-actions button+button{border-left:1px solid #ececec}
+body.weibo-mode .wb-gender{width:19px;height:19px;overflow:hidden;border-radius:50%;flex:none}
+body.weibo-mode .wb-gender svg{width:17px;height:17px;display:block;fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+body.weibo-mode .wb-crown{width:25px;height:19px;object-fit:contain}
+body.weibo-mode .wb-author .wb-crown{width:21px;height:16px}
+body.weibo-mode .wb-video-label{display:inline;color:#4a779f;font-size:inherit;line-height:inherit;margin:0;white-space:normal;overflow-wrap:anywhere}
+body.weibo-mode .wb-video-label svg{display:inline-block;width:1.05em;height:1.05em;vertical-align:-.17em;margin:0 .14em 0 0;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
