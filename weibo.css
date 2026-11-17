@@ -66,3 +66,7 @@ body.weibo-mode .wb-tabs button{padding:8px 2px 5px}
 /* Video/live label follows the post text inline; no separate label row. */
 .wb-text .wb-video-label{display:inline-flex;vertical-align:baseline;align-items:baseline;gap:5px;margin:0;color:#4a779f;font-size:inherit;line-height:inherit;white-space:normal}
 .wb-text .wb-video-label svg{display:inline-block;width:19px;height:19px;flex:none;align-self:center;margin:0}
+
+/* Keep the camera label in the normal text flow so long labels wrap naturally. */
+.wb-text .wb-video-label{display:inline;white-space:normal;vertical-align:baseline;overflow-wrap:anywhere}
+.wb-text .wb-video-label svg{display:inline;width:1.08em;height:1.08em;vertical-align:-.15em;margin:0 .16em 0 0;flex:none;align-self:auto}
