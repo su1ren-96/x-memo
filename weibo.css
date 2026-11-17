@@ -62,3 +62,7 @@ body.weibo-mode .wb-tabs button{padding:8px 2px 5px}
 .wb-crown svg{width:100%;height:100%;display:block}.wb-crown b{position:absolute;right:-1px;bottom:0;color:white;font:bold 12px/1 Arial,sans-serif;text-shadow:0 1px 2px #9d4800,-1px 0 #ec7900,1px 0 #ec7900}
 
 .wb-author .wb-crown{width:23px;height:22px;margin-left:2px}.wb-author .wb-crown b{font-size:10px}
+
+/* Video/live label follows the post text inline; no separate label row. */
+.wb-text .wb-video-label{display:inline-flex;vertical-align:baseline;align-items:baseline;gap:5px;margin:0;color:#4a779f;font-size:inherit;line-height:inherit;white-space:normal}
+.wb-text .wb-video-label svg{display:inline-block;width:19px;height:19px;flex:none;align-self:center;margin:0}
