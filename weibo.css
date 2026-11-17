@@ -32,3 +32,24 @@ body.weibo-mode .wb-tabs{top:54px}
 .wb-insert-link{margin:3px 0 10px;color:#4a779f}
 .wb-check-label{display:flex;align-items:center;gap:10px;font-size:15px}
 .wb-check-label input{width:20px;height:20px;accent-color:#ff8200}
+
+/* 2026-11-17 reference-aligned compact Weibo header and action row */
+body.weibo-mode .wb-head.wb-head-centered{height:250px;min-height:250px}
+.wb-profile-center{padding:25px 12px 12px}
+.wb-avatar-wrap{width:88px;height:88px;margin-bottom:7px}
+.wb-avatar-wrap .wb-avatar{width:88px;height:88px;border-width:4px}
+.wb-centered-name{font-size:19px;line-height:1.3}
+.wb-centered-stats{margin-top:9px;font-size:14px;gap:13px}
+.wb-centered-stats i{height:16px}
+.wb-centered-bio{margin-top:7px;font-size:12px;line-height:1.3}
+.wb-header-tools{top:8px;right:8px}
+.wb-header-tools button{padding:4px 7px;font-size:12px}
+.wb-header-tools small{font-size:9px}
+body.weibo-mode .wb-tabs button{padding:8px 2px 5px}
+.wb-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:0;margin:12px -14px -10px;border-top:1px solid #eee;min-height:49px}
+.wb-actions button{display:flex;align-items:center;justify-content:center;gap:6px;padding:11px 3px;background:#fff;border:0;color:#999;font-size:15px;line-height:1}
+.wb-actions button+button{border-left:1px solid #e7e7e7}
+.wb-action-icon{width:22px;height:22px;flex:none}
+.wb-video-label{display:flex;align-items:flex-start;gap:6px;margin:12px 0 13px;font-size:17px;line-height:1.5}
+.wb-video-label svg{width:20px;height:20px;margin-top:3px}
+@media(max-width:370px){body.weibo-mode .wb-head.wb-head-centered{height:250px;min-height:250px}}
